@@ -1,0 +1,41 @@
+.nav-header {
+  height: 25vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.app-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.logo-heading {
+  color: #6d396b;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: -40px;
+}
+
+.nav-link {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: #551e53;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
